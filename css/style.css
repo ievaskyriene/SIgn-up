@@ -1,1 +1,127 @@
+body{
+   
+    background-color: #cccccc;
+   
+    /*display: inline-block;*/
 
+    
+}
+
+.background {
+    background-image: url("day1drnuotr.png");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(15px);
+
+    }
+    
+
+.container {
+    display: inline-block;
+    position: absolute;
+    width: 644px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-image: url("day1drnuotr.png");
+        width: 40%;
+        float: left;
+        height: 374px;
+        margin-top: calc((415px - 374px) / 2)
+    }
+        h1{
+            font-weight: lighter;
+            color: #80bbe6;
+            margin-top: 30px;
+            margin-left: 39px;
+        }
+
+        footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-bottom: 18px;
+            color: #80bbe6;
+        }
+
+        span{
+            color: #6891af;
+        }
+
+    .right{
+        display: inline-block;
+        width: 60%;
+        height: 415px;
+        background-color: white;
+        float: right;
+
+    }
+        .x{
+            display: inline-block;
+            float: right;
+            margin-top: 1px;
+            margin-right: 10px;
+            color: #e1e1e1;
+            font-size: 30px;
+            font-weight: lighter;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-top: 59px;
+            padding-bottom: 39px;
+            padding-left: 59px;
+            padding-right: 59px;
+            height: 100%;
+        }
+            .form-row{
+                display: flex;
+                flex-direction: column;
+                
+            }
+                label{
+                    font-size: 13px;
+                    line-height: 30px;
+                    color: #e1e1e1;
+                    text-transform: uppercase;
+
+                }
+                input{
+                    border-bottom: 1px #e1e1e1 solid;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                }
+
+            .apacia{
+                display: flex;
+                flex-direction: row;
+               justify-content: space-between;
+                
+            }
+            .btn{
+                float: left;
+                color: #8db7df;
+                border-radius: 20px;
+				display: inline-block;
+                padding: 3px 23px;
+                background-color: blue;
+            }
+            span{
+            }
+            a{
+                float: right;
+                color: #9fb0de;
+                text-decoration: none;
+            }
+    
+    
