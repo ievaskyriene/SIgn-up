@@ -1,12 +1,52 @@
 body{
+
+    background-color: aqua;
+}
+
+    .container {
+        display: inline-block;
+        width: 800px;
+        margin-top: 80px;
+        margin-left: calc(50% - 400px);
+}
+
+    .left{
+        display: inline-block;
+        width: 40%;
+        float: left;
+        background-color: #3366ff;
+    }
+
+        h1{
+
+        }
+        footer{
+
+        }
+            footer > a{
+
+            }
+            footer > span{
+
+            }
+
+    .right{
+        background-color: #ffffff;
+        display: inline-block;
+        width: 60%;
+        float: left;
+    }
+
+
+
+/*body{
    
     background-color: #cccccc;
    
-    /*display: inline-block;*/
+    display: inline-block;
 
     
 }
-
 .background {
     background-image: url("day1drnuotr.png");
     height: 100vh;
@@ -73,35 +113,8 @@ body{
             font-size: 30px;
             font-weight: lighter;
         }
-        form{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            padding-top: 59px;
-            padding-bottom: 39px;
-            padding-left: 59px;
-            padding-right: 59px;
-            height: 100%;
-        }
-            .form-row{
-                display: flex;
-                flex-direction: column;
-                
-            }
-                label{
-                    font-size: 13px;
-                    line-height: 30px;
-                    color: #e1e1e1;
-                    text-transform: uppercase;
-
-                }
-                input{
-                    border-bottom: 1px #e1e1e1 solid;
-                    border-top: none;
-                    border-left: none;
-                    border-right: none;
-                }
-
+       
+    
             .apacia{
                 display: flex;
                 flex-direction: row;
@@ -116,12 +129,16 @@ body{
                 padding: 3px 23px;
                 background-color: blue;
             }
-            span{
+
+            .form-row > span{
+
             }
-            a{
+            .form-row > a{
                 float: right;
                 color: #9fb0de;
                 text-decoration: none;
             }
+
+        */
     
     
