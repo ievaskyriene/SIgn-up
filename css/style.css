@@ -125,7 +125,7 @@ body{
             line-height: 20px;
         }*/
 
-        .x{
+        .x {
             display: inline-block;
             background-color: pink;
             width: 80px;
@@ -133,18 +133,28 @@ body{
             text-align: center;
             font-size: 24px;
             line-height: 76px;
-
             position: absolute;
             top: 0px;
             right: 0px;   
         }
 
+        .x::before,
+        .x::after {
+            display: inline-block;
+            content: "";
+            width: 40px;
+            height: 2px;
+            background-color: red;
+            transform:  translate(-50%, -50%)rotate(45deg);
+            position: absolute;
+            top: 50%;
+            left:50%;
+        }
 
-
-
-
-        
-
+        .x::after{
+            transform:  translate(-50%, -50%)rotate(-45deg);
+            
+        }
 
 /*body{
    
