@@ -15,28 +15,67 @@ body{
         width: 40%;
         float: left;
         background-color: #3366ff;
+        padding: 50px;
     }
 
         h1{
+            text-transform: capitalize;
+            color: #ffffff;
+            font-weight: normal;
 
         }
+
         footer{
+            color: #ffffff;
 
         }
             footer > a{
+                color: #ffffff;
 
             }
-            footer > span{
 
+            footer > span{
             }
 
     .right{
+        padding: 80px;
         background-color: #ffffff;
         display: inline-block;
         width: 60%;
         float: left;
     }
 
+        .btn{
+            display: inline-block;
+           float: left;
+            color: #ffffff;
+            border-radius: 20px;
+            padding: 10px 50px;
+            background-color:#3366ff;
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        .form-row > span{
+            float: left;
+            display: inline-block;
+            padding: 10px 50px;
+            font-size: 16px;
+            line-height: 20px;
+
+        }
+
+        .form-row > a{
+            display: inline-block;
+            float: left;
+            color: #3366ff;
+            text-decoration: none;
+        }
+
+
+
+
+        
 
 
 /*body{
