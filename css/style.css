@@ -8,6 +8,7 @@ body{
         width: 800px;
         margin-top: 80px;
         margin-left: calc(50% - 400px);
+        position: relative;
 }
 
     .left{
@@ -16,6 +17,10 @@ body{
         float: left;
         background-color: #3366ff;
         padding: 50px;
+        position: absolute;
+        top:20px;
+        left: 0px;
+        bottom: 20px;
     }
 
         h1{
@@ -27,6 +32,10 @@ body{
 
         footer{
             color: #ffffff;
+            position: absolute;
+            left: 50px;
+            right: 50px;
+            bottom: 20px;
 
         }
             footer > a{
@@ -42,35 +51,68 @@ body{
         background-color: #ffffff;
         display: inline-block;
         width: 60%;
-        float: left;
+        float: right;
+        position: relative;
     }
 
-        .btn{
+        .btn,
+        .form-row > span
+        .form-row > a
+
+        {
             display: inline-block;
-           float: left;
+            float: left;
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        .btn{
             color: #ffffff;
             border-radius: 20px;
             padding: 10px 50px;
             background-color:#3366ff;
-            font-size: 16px;
-            line-height: 20px;
         }
 
         .form-row > span{
-            float: left;
-            display: inline-block;
-            padding: 10px 50px;
-            font-size: 16px;
-            line-height: 20px;
-
+            margin-left: 20px;
         }
 
         .form-row > a{
+      
+        margin-left: 20px;
+    }
+/*
+        {
+            float: left;
+            display: inline-block;
+           
+
+        }
+
+        {
             display: inline-block;
             float: left;
             color: #3366ff;
             text-decoration: none;
+            padding: 10px;
+            font-size: 14px;
+            line-height: 20px;
+        }*/
+
+        .x{
+            display: inline-block;
+            background-color: pink;
+            width: 80px;
+            height: 80px;
+            text-align: center;
+            font-size: 24px;
+            line-height: 76px;
+
+            position: absolute;
+            top: 0px;
+            right: 0px;   
         }
+
 
 
 
